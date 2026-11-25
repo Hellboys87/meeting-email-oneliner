@@ -9,7 +9,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const JOKE =
-  "After an hour, our only action item was scheduling another meeting to decide what the first meeting was about.";
+  "Sixty minutes in, our only action item was scheduling a second meeting to decide what the first one was for.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
